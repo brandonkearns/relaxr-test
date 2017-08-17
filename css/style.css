@@ -1,0 +1,7 @@
+#garden {
+  background-color: #369369;
+}
+
+#garden > article {
+  border: .25em solid lavender;
+}
