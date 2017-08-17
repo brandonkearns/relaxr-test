@@ -1,7 +1,13 @@
 #garden {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr 4fr;
+  /*grid-column-gap: .5em;*/
+  /*grid-row-gap: .5em;*/
+  grid-gap: .5em;
   background-color: #369369;
 }
 
 #garden > article {
+  background-color: slategrey;
   border: .25em solid lavender;
 }
